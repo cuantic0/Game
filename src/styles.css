@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif; /* Fuente estilo moderno y divertido */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  border: 2px solid white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #888;
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em;
+  }
+
+  button {
+      padding: 10px 20px;
+      font-size: 1em;
+  }
+}
+
+body, html {
+font-family: Signika Negative, sans-serif;
+background: #111;
+color:#efefef;
+height:100%;
+}
+
+
+
+.instructions {
+text-align:center;
+margin-top:10px;
+}
+
+/* Estilos para el formulario y los inputs */
+#player-form {
+max-height: 300px; /* Altura máxima del contenedor con scroll */
+overflow-y: auto; /* Permite el scroll vertical */
+margin-top: 20px;
+padding: 10px;
+border: 1px solid #444;
+border-radius: 10px;
+background-color: #222;
+}
+
+.player-input {
+display: block;
+width: calc(100% - 20px);
+margin: 10px auto;
+padding: 10px;
+font-size: 1em;
+color: white;
+background-color: #333;
+border: 1px solid #444;
+border-radius: 5px;
+outline: none;
+}
+
+.player-input::placeholder {
+color: #aaa; /* Estilo del placeholder */
+font-style: italic;
+}
+
+/* Estilo de fuente personalizado */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');

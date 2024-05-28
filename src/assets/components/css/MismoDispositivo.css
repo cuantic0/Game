@@ -1,0 +1,60 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#player-form {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.player-input {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.add-input-container,
+.continue-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.add-input-button,
+.continue-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.add-input-button:hover,
+.continue-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+  
+  

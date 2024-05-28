@@ -1,0 +1,40 @@
+.animated-button {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px 80px;
+    margin: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px transparent;
+    border-radius: 10px;
+    -webkit-font-smoothing: antialiased;
+    animation: appearAnimation 0.5s ease-out forwards; /* Aplicamos la animación de aparición */
+    opacity: 0; /* Establecemos la opacidad inicial a 0 */
+  }
+  
+  @keyframes appearAnimation {
+    from {
+      opacity: 0;
+      transform: scale(0.8); /* Escala inicial más pequeña */
+    }
+    to {
+      opacity: 1;
+      transform: scale(1); /* Escala normal al final */
+    }
+  }
+  
+  .animated-button:hover {
+    background-color: #888;
+    transform: scale(1.1);
+  }
+  
+  .animated-button:active {
+    opacity: 0.7; /* Cambiamos la opacidad al hacer clic */
+  }
+  
+  

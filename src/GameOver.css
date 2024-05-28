@@ -1,0 +1,55 @@
+.game-over-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
+  .winner-container {
+    margin-top: 2rem;
+  }
+  
+  .winner {
+    font-size: 3rem;
+    color: #dbdbdb;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .play-again-button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .play-again-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+/* Estilo para los elementos <strong> */
+strong {
+    font-weight: bold;
+    color: #333; /* Color de texto para los elementos <strong> */
+    -webkit-text-stroke: 2px #fff; /* Borde blanco con un grosor de 2px */
+    padding: 4px 8px; /* Añadir relleno para separar el texto del borde */
+    border-radius: 4px; /* Agregar esquinas redondeadas al borde */
+  }
+  
+  
+  
+  
+  
